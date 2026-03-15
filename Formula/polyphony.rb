@@ -1,10 +1,10 @@
 class Polyphony < Formula
   desc "Repo-native AI orchestration tool"
   homepage "https://github.com/penso/polyphony"
-  url "https://github.com/penso/polyphony/releases/download/#{version}/polyphony-#{version}-universal2-apple-darwin.tar.gz"
-  version "20260315.05"
-  sha256 "912cf723868f661d781303769f9b99aa9c3bc5d8574a97078eaa81439b1c6918"
-  license "Apache-2.0"
+  url "https://github.com/penso/polyphony/releases/download/20260315.06/polyphony-20260315.06-universal2-apple-darwin.tar.gz"
+  version "20260315.06"
+  sha256 "e703f7cb8b0627bbf60cc142567216f69a0259680459331f78be666a1a64dd69"
+  license "MIT"
 
   def install
     bin.install "bin/polyphony"
